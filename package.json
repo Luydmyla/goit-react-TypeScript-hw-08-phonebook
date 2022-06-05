@@ -1,0 +1,52 @@
+{
+  "name": "goit-react-hw-08-phonebook",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Luydmyla.github.io/goit-react-hw-08-phonebook/",
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "modern-normalize": "^1.1.0",
+    "nanoid": "^3.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "react-toastify": "^9.0.1",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.7.2",
+    "web-vitals": "^2.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:js": "eslint src/**/*.{js,jsx}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
